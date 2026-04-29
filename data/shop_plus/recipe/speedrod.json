@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bpb",
+    "rer",
+    "prp"
+  ],
+  "key": {
+    "r": [
+      "minecraft:breeze_rod"
+    ],
+    "b": [
+      "minecraft:rabbit_foot"
+    ],
+    "p": [
+      "minecraft:ender_pearl"
+    ],
+    "e": [
+      "minecraft:enchanted_golden_apple"
+    ]
+  },
+  "result": {
+    "id": "minecraft:breeze_rod",
+    "components": {
+      "minecraft:custom_data": "{SpeedRod:1}",
+      "minecraft:custom_name": {
+        "text": "Speed Rod",
+        "color": "#00e9f4",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

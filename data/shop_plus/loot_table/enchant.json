@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 15,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 25,
+              "add": true
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}

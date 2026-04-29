@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Add multiple shop items with economy craft mod",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

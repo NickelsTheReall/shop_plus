@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:enchanted_golden_apple",
+      "netherite_block"
+    ],
+    [
+      "minecraft:netherite_sword"
+    ],
+    [
+      "minecraft:enchanted_golden_apple",
+      "minecraft:netherite_block"
+    ],
+    [
+      "minecraft:nether_star"
+    ],
+    [
+      "minecraft:enchanted_golden_apple",
+      "minecraft:netherite_block"
+    ],
+    [
+      "minecraft:nether_star"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Supreme Sword",
+        "color": "#c44040",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:max_stack_size": 1,
+      "minecraft:repair_cost": 2,
+      "minecraft:repairable": {
+        "items": [
+          "minecraft:enchanted_golden_apple",
+          "minecraft:netherite_block"
+        ]
+      },
+      "minecraft:item_model": "shop_plus_custom_texture_pack:supreme_sword",
+      "minecraft:custom_data": {
+        "SupremeSword": 1
+      },
+      "minecraft:tooltip_display": {},
+      "minecraft:max_damage": 4852
+    },
+    "count": 1
+  }
+}

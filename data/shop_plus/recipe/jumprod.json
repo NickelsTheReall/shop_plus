@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ebe",
+    "brb",
+    "epe"
+  ],
+  "key": {
+    "e": [
+      "minecraft:ender_pearl"
+    ],
+    "b": [
+      "minecraft:blaze_rod"
+    ],
+    "r": [
+      "elytra"
+    ],
+    "p": [
+      "minecraft:dragon_breath"
+    ]
+  },
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "components": {
+      "minecraft:custom_data": "{JumpRod:1}",
+      "minecraft:custom_name": {
+        "text": "Jump Rod",
+        "color": "#00f46e",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1
+  }
+}

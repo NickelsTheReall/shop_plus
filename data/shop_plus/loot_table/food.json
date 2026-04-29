@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 26,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "By Bizim Market"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mouton Hallal",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Chaetan : CPAS BIEN"
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Porc HARAM",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true,
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": true
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "conditions": []
+    }
+  ],
+  "functions": []
+}
